@@ -16,7 +16,7 @@ task main()
     ....
 }
 ```
-Note: If you add a `startTask` call to your main task like this, the timer will start counting down as soon as the "start" button is pressed in the debug window. If you want to make it so it only starts recording after a button press, use the following call instead:
+Note: If you add a `startTask` call to your main task like this, the timer will start counting down as soon as the "start" button is pressed in the debug window. If you want to make it so it only starts recording after a button press on the controller, use the following code in your ROBOTC program instead:
 
 ```c
 #include <vex_recorder.c>
